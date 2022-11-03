@@ -174,6 +174,17 @@
             vertical-align: middle;
 
         }
+
+        .smallcontainer{
+           padding-top:7px ;
+           padding-bottom:3px ; 
+           padding-left: 10px;
+           margin-top:20px; 
+           color: #8ebe3f;
+           background-color: #8ebe3f57;
+           border-color: #8ebe3f;
+            border-radius:5px;
+        }
     </style>
 
 </head>
@@ -213,13 +224,13 @@
                         <div class="col-md-2"></div>
                         <div class="col-md-8">
                             <div class="portlet light portlet-border">
-
+                                <div class=" smallcontainer">
+                                    <h4 class="heading">Lifestyle Details </h4>
+                                </div>
                                 <div class="portlet-body">
                                     <table style="max-width:100%" class="table">
-                                    <tr>
-                                        <div style="padding-top:15px ;padding-bottom:7px ;margin-top:20px; color: #8ebe3f;background-color: #8ebe3f57;
-    border-color: #8ebe3f;" class="alert" role="alert"><h5>Lifestyle Details/ Diet Recall</h5></div>
-                                    </tr>
+                                        <!-- <div style="padding-top:15px ;padding-bottom:7px ;margin-top:20px; color: #8ebe3f;background-color: #8ebe3f57;
+    border-color: #8ebe3f;" class="alert" role="alert"><h5>Lifestyle Details/ Diet Recall</h5></div> -->
                                         <tr>
                                             <td width="50%" style="border-top: 0px; padding-top:20px; padding-bottom:25px">
                                                 <span id="error200">
@@ -550,13 +561,13 @@
 
                                         </tr>
                                          <tr>
-                                            <td style="vertical-align:middle;">
+                                            <td style="vertical-align:middle; padding-bottom:10px; border-bottom-width: 0px;">
                                                 <span id="error201">
                                                     <strong>16.</strong> Geographical location <font color="RED"> * </font>
                                                 </span>
                                             <BR/>
                                             </td>
-                                            <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
+                                            <td class="segmented-button" style="padding-bottom:10px; border-bottom-width: 0px;">
                                                 <div class="form-group segmented-button options">
 
                                                     <select class="form-control" name="q107" id="op1017">
@@ -571,6 +582,13 @@
                                                 </div>
                                             </td>
                                         </tr>
+                                    </table>
+                                </div>
+                                <div class=" smallcontainer">
+                                    <h4 class="heading">Diet Recall </h4>
+                                </div>
+                                <div class="portlet-body mt-4">
+                                    <table style="max-width:100%" class="table">
                                         <tr>
                                             <td style="vertical-align:middle;">
                                                 <span id="error201">
