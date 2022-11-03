@@ -229,8 +229,6 @@
                                 </div>
                                 <div class="portlet-body">
                                     <table style="max-width:100%" class="table">
-                                        <!-- <div style="padding-top:15px ;padding-bottom:7px ;margin-top:20px; color: #8ebe3f;background-color: #8ebe3f57;
-    border-color: #8ebe3f;" class="alert" role="alert"><h5>Lifestyle Details/ Diet Recall</h5></div> -->
                                         <tr>
                                             <td width="50%" style="border-top: 0px; padding-top:20px; padding-bottom:25px">
                                                 <span id="error200">
@@ -327,15 +325,13 @@
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                                 <div class="form-group segmented-button">
-                                                                    <input id="op3005" name="q302" type="radio" value="Yes">
+                                                                    <input id="op3005" name="q302" type="radio" value="Y">
                                                                     <label for="op3005">Yes</label>
-                                                                    <input id="op3006" name="q302" type="radio" value="No">
+                                                                    <input id="op3006" name="q302" type="radio" value="N">
                                                                     <label for="op3006">No</label>
                                                                 </div>
                                                             </td>
-                                                            
-                                                                    <textarea  class="form-control hide" name="q100" id="op1008" cols="60" rows="2"></textarea  class="form-control">
-                                                <textarea  class="form-control hide" name="q104" id="op1021" cols="60" rows="2"></textarea  class="form-control">
+                                                <textarea  class="form-control hide" name="q104" id="area" cols="60" rows="2"></textarea  class="form-control">
                                         </tr>
 
 
@@ -465,7 +461,7 @@
                                                                     <label for="op1025">No</label>
                                                                     <input id="op1025" name="q110" type="radio" value="OTHS" onclick="hideShowOption1('O');">
                                                                     <label for="op1025">Others</label>
-                                                                   <textarea  class="form-control hide"  id="area1" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
+                                                                   <textarea  class="form-control hide"  id="area2" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
                                                                 </div>
                                             </td>
                                         </tr>
@@ -551,12 +547,13 @@
                                             <td class="segmented-button" style="vertical-align:middle">
                                                 <div class="form-group segmented-button options">
                                             
-                                                <input id="op1024" name="q110" type="radio" value="N" onclick="hideShow('N');">
+                                                <input id="op1024" name="q110" type="radio" value="N" onclick="hideShowOption('N');">
                                                 <label for="op1024">None</label>
 
-                                                <input id="op1025" name="q110" type="radio" value="Y" onclick="hideShow('Y');">
+                                                <input id="op1025" name="q110" type="radio" value="Y" onclick="hideShowOption('Yes');">
                                                 <label for="op1025">Yes</label>  
-                                                </div> 
+                                                </div>
+                                            <textarea  class="form-control hide" name="q100" id="area1" cols="60" rows="2"></textarea  class="form-control"> 
                                             </td>
 
                                         </tr>
@@ -570,7 +567,7 @@
                                             <td class="segmented-button" style="padding-bottom:10px; border-bottom-width: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q107" id="op1017">
+                                                    <select class="form-control" name="q107" id="op1015">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> North </option>
                                                         <option value="2"> South </option>
@@ -578,7 +575,7 @@
                                                         <option value="4"> West </option>
                                                         <option value="OTH">Any Other </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q107" id="op1018" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q107" id="op1016" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
@@ -770,11 +767,18 @@
     document.getElementById('area').style.display="none";
   }
 }
-function hideShowOption1(val) {
-  if (val == "O") {
+function hideShowOption(val) {
+  if (val == "Yes") {
     document.getElementById('area1').style.display="block";
   } else {
     document.getElementById('area1').style.display="none";
+  }
+}
+function hideShowOption1(val) {
+  if (val == "O") {
+    document.getElementById('area2').style.display="block";
+  } else {
+    document.getElementById('area2').style.display="none";
   }
 }
         
@@ -829,6 +833,7 @@ function hideShowOption1(val) {
                 $("#error205").removeClass("red-caption-error");
             }
             
+
             if ($('#op1017').val() === null  || ($('#op1017').val() == 'OTH' && !$('#op1018').val())) {
                 $("#error207").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
@@ -934,6 +939,14 @@ function hideShowOption1(val) {
             $("#op1012").addClass("hide");       
         });
 
+        // geo option
+         $("#op1015").on('change',()=>{
+        if ($("#op1015").val() == 'OTH')
+            $("#op1016").removeClass("hide");
+        else
+            $("#op1016").addClass("hide");       
+        });
+
         $("#op1017").on('change',()=>{
         if ($("#op1017").val() == 'OTH')
             $("#op1018").removeClass("hide");
@@ -963,7 +976,7 @@ function hideShowOption1(val) {
                 return false;
             }
             var uid = "EWAP100261";
-            var type = 'mse';
+            var type = 'nla';
             var q1 = $('#op1000 option:selected').val();
             var q2 = $('#op1002 option:selected').val();
             //var q3 = null;
@@ -985,8 +998,8 @@ function hideShowOption1(val) {
             var q12 = $('input[name="q300"]:checked').val();
             var q13 = $('input[name="q301"]:checked').val();
             var q14 = $('input[name="q302"]:checked').val();
-            var score = 2;
-            var linkid = '';
+            // var score = 2;
+            // var linkid = '';
             const formData = {
                 uid,
                 type,
