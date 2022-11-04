@@ -260,7 +260,7 @@
                                             <td class="segmented-button" style="border-top: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q100" id="op1000">
+                                                    <select class="form-control" name="q101" id="op1001">
                                                         <option value="-1" disabled="" selected=""> -- Select -- </option>
                                                         <option value="1">Once a week</option>
                                                         <option value="2">Twice a week</option>
@@ -278,7 +278,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
-                                                    <select class="form-control" name="q103" id="op1007">
+                                                    <select class="form-control" name="q102" id="op1002">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1">Regular </option>
                                                         <option value="2">Occasional </option>
@@ -300,7 +300,7 @@
                                                 <div class="form-group segmented-button options">
 
 
-                                                    <select class="form-control" name="q104" id="op1009">
+                                                    <select class="form-control" name="q103" id="op1003">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Brisk/walk </option>
                                                         <option value="2"> Running/ jogging </option>
@@ -309,7 +309,7 @@
                                                         <option value="5"> Yoga/ Meditation </option>
                                                         <option value="OTH">Others </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q104" id="op1010" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q103" id="op1004" cols="60" rows="2"></textarea  class="form-control">
 
 
                                                 </div>
@@ -325,15 +325,14 @@
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                                 <div class="form-group segmented-button">
-                                                                    <input id="op3005" name="q302" type="radio" value="Y">
+                                                                    <input id="op3005" name="q300" type="radio" value="Y">
                                                                     <label for="op3005">Yes</label>
-                                                                    <input id="op3006" name="q302" type="radio" value="N">
+                                                                    <input id="op3006" name="q300" type="radio" value="N">
                                                                     <label for="op3006">No</label>
                                                                 </div>
                                                             </td>
                                                 <textarea  class="form-control hide" name="q104" id="area" cols="60" rows="2"></textarea  class="form-control">
                                         </tr>
-
 
 
                                         <tr>
@@ -347,7 +346,7 @@
                                                 <div class="form-group segmented-button options">
 
 
-                                                    <select class="form-control" name="q104" id="op1009">
+                                                    <select class="form-control" name="q105" id="op1005">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Weekly </option>
                                                         <option value="2"> Monthly </option>
@@ -369,7 +368,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1006" name="q106">
                                                 </div>
                                             </td>
                                         </tr>
@@ -385,7 +384,7 @@
                                                 <div class="form-group segmented-button options" style="vertical-align:middle; padding-bottom:10px">
 
 
-                                                    <select class="form-control" name="q107" id="op1017">
+                                                    <select class="form-control" name="q108" id="op1007">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Often </option>
                                                         <option value="2"> Occasionally </option>
@@ -393,7 +392,6 @@
                                                         <option value="4"> Never </option>
 
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q107" id="op1018" cols="60" rows="2"></textarea  class="form-control">
 
                                                 </div>
                                             </td>
@@ -408,14 +406,13 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q108" id="op1019">
+                                                    <select class="form-control" name="q109" id="op1008">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Less than 1 litre per day </option>
                                                         <option value="2"> 1-2 litre per day </option>
                                                         <option value="3"> 2-3 litre per day </option>
                                                         <option value="4"> More than 4 litre per day </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q108" id="op1020" cols="60" rows="2"></textarea  class="form-control">
 
 
                                                 </div>
@@ -431,7 +428,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q108" id="op1019">
+                                                    <select class="form-control" name="q110" id="op1009">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> 9 hours and more </option>
                                                         <option value="2"> 6-7 hrs </option>
@@ -439,9 +436,6 @@
                                                         <option value="4"> Disturbed sleep </option>
                                                         <option value="5"> Insomnia </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q108" id="op1020" cols="60" rows="2"></textarea  class="form-control">
-
-
                                                 </div>
                                             </td>
                                         </tr>
@@ -454,14 +448,14 @@
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                                 <div class="form-group segmented-button">
-                                                                    <input id="op1024" name="q110" type="radio" value="Y" onclick="hideShowOption1('Y');">
+                                                                    <input id="op1024" name="q111" type="radio" value="Y" onclick="hideShowOption1('Y');">
                                                                     <label for="op1024">Yes</label>
 
-                                                                    <input id="op1025" name="q110" type="radio" value="N" onclick="hideShowOption1('N');">
+                                                                    <input id="op1025" name="q111" type="radio" value="N" onclick="hideShowOption1('N');">
                                                                     <label for="op1025">No</label>
-                                                                    <input id="op1025" name="q110" type="radio" value="OTHS" onclick="hideShowOption1('O');">
+                                                                    <input id="op1025" name="q111" type="radio" value="OTHS" onclick="hideShowOption1('O');">
                                                                     <label for="op1025">Others</label>
-                                                                   <textarea  class="form-control hide"  id="area2" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
+                                                                   <textarea  class="form-control hide" name="q112" id="area2" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
                                                                 </div>
                                             </td>
                                         </tr>
@@ -476,7 +470,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q108" id="op1019">
+                                                    <select class="form-control" name="q113" id="op1010">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> 1-2 cups/day </option>
                                                         <option value="2"> 2-3 cups/day </option>
@@ -484,7 +478,6 @@
                                                         <option value="4"> Occasional </option>
                                                         <option value="5"> Never </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q108" id="op1020" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
@@ -499,7 +492,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q108" id="op1019">
+                                                    <select class="form-control" name="q114" id="op1011">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Comfortable </option>
                                                         <option value="2"> Uncomfortable </option>
@@ -520,7 +513,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q105" id="op1011">
+                                                    <select class="form-control" name="q115" id="op1012">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Sunflower </option>
                                                         <option value="2"> Groundnut </option>
@@ -533,7 +526,7 @@
                                                         <option value="9"> Cold Pressed </option>
                                                         <option value="OTH">Any Other </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q105" id="op1012" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q115" id="op1013" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
@@ -547,13 +540,13 @@
                                             <td class="segmented-button" style="vertical-align:middle">
                                                 <div class="form-group segmented-button options">
                                             
-                                                <input id="op1024" name="q110" type="radio" value="N" onclick="hideShowOption('N');">
+                                                <input id="op1024" name="q116" type="radio" value="N" onclick="hideShowOption('N');">
                                                 <label for="op1024">None</label>
 
-                                                <input id="op1025" name="q110" type="radio" value="Y" onclick="hideShowOption('Yes');">
+                                                <input id="op1025" name="q116" type="radio" value="Y" onclick="hideShowOption('Yes');">
                                                 <label for="op1025">Yes</label>  
                                                 </div>
-                                            <textarea  class="form-control hide" name="q100" id="area1" cols="60" rows="2"></textarea  class="form-control"> 
+                                            <textarea  class="form-control hide" name="q116" id="area1" cols="60" rows="2"></textarea  class="form-control"> 
                                             </td>
 
                                         </tr>
@@ -567,7 +560,7 @@
                                             <td class="segmented-button" style="padding-bottom:10px; border-bottom-width: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q107" id="op1015">
+                                                    <select class="form-control" name="q117" id="op1014">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> North </option>
                                                         <option value="2"> South </option>
@@ -575,7 +568,7 @@
                                                         <option value="4"> West </option>
                                                         <option value="OTH">Any Other </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q107" id="op1016" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q117" id="op1015" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
@@ -595,7 +588,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1016" name="q118">
                                                 </div>
                                             </td>
                                         </tr>
@@ -607,7 +600,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1017" name="q119">
                                                 </div>
                                             </td>
                                         </tr>
@@ -619,7 +612,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1018" name="q120">
                                                 </div>
                                             </td>
                                         </tr>
@@ -631,7 +624,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1019" name="q121">
                                                 </div>
                                             </td>
                                         </tr>
@@ -643,7 +636,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1020" name="q122">
                                                 </div>
                                             </td>
                                         </tr>
@@ -655,7 +648,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1021" name="q123">
                                                 </div>
                                             </td>
                                         </tr>
@@ -667,7 +660,7 @@
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="">
+                                                    <input type="text" class="form-control" id="op1022" name="q124">
                                                 </div>
                                             </td>
                                         </tr>
@@ -679,9 +672,9 @@
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                 <div class="form-group segmented-button">
-                                                    <input id="op3005" name="q302" type="radio" value="Yes">
+                                                    <input id="op3005" name="q125" type="radio" value="Yes">
                                                     <label for="op3005">Yes</label>
-                                                    <input id="op3006" name="q302" type="radio" value="No">
+                                                    <input id="op3006" name="q125" type="radio" value="No">
                                                     <label for="op3006">No</label>
                                                 </div>
                                             </td>
@@ -695,7 +688,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q108" id="op1019">
+                                                    <select class="form-control" name="q126" id="op1023">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Sweet </option>
                                                         <option value="2"> Savoury </option>
@@ -795,58 +788,96 @@ function hideShowOption1(val) {
             var q108 = document.getElementsByName("q108");
             var q109 = document.getElementsByName("q109");
             var q110 = document.getElementsByName("q110");
+            var q111 = document.getElementsByName("q111");
+            var q112 = document.getElementsByName("q112");
+            var q113 = document.getElementsByName("q113");
+            var q114 = document.getElementsByName("q114");
+            var q115 = document.getElementsByName("q115");
+            var q116 = document.getElementsByName("q116");
+            var q117 = document.getElementsByName("q117");
+            var q118 = document.getElementsByName("q118");
+            var q119 = document.getElementsByName("q119");
+            var q120 = document.getElementsByName("q120");
+            var q121 = document.getElementsByName("q121");
+            var q122 = document.getElementsByName("q122");
+            var q123 = document.getElementsByName("q123");
+            var q124 = document.getElementsByName("q124");
+            var q125 = document.getElementsByName("q125");
+            var q126 = document.getElementsByName("q126");
+
             var q300 = document.getElementsByName("q300");
             var q301 = document.getElementsByName("q301");
             var q302 = document.getElementsByName("q302");
-            if ($('#op1000').val() === null  || ($('#op1000').val() == 'OTH' && !$('#op1001').val())) {
+            // if ($('#op1000').val() === null  || ($('#op1000').val() == 'OTH' && !$('#op1001').val())) {
+            //     $("#error200").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error200").removeClass("red-caption-error");
+            // }
+            
+            // if ($('#op1002').val() === null  || ($('#op1002').val() == 'OTH' && !$('#op1003').val())) {
+            //     $("#error201").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error201").removeClass("red-caption-error");
+            // }
+    
+            // if ($('#op1007').val() === null  || ($('#op1007').val() == 'OTH' && !$('#op1008').val())) {
+            //     $("#error203").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error203").removeClass("red-caption-error");
+            // }
+            
+            // if ($('#op1009').val() === null  || ($('#op1009').val() == 'OTH' && !$('#op1010').val())) {
+            //     $("#error204").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error204").removeClass("red-caption-error");
+            // }
+            
+            // if ($('#op1011').val() === null  || ($('#op1011').val() == 'OTH' && !$('#op1012').val())) {
+            //     $("#error205").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error205").removeClass("red-caption-error");
+            // }
+            
+
+            // if ($('#op1017').val() === null  || ($('#op1017').val() == 'OTH' && !$('#op1018').val())) {
+            //     $("#error207").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error207").removeClass("red-caption-error");
+            // }
+            
+            // if ($('#op1019').val() === null  || ($('#op1019').val() == 'OTH' && !$('#op1020').val())) {
+            //     $("#error208").removeClass("green-caption").addClass("red-caption-error");
+            //     err += '\n 2';
+            // } else { 
+            //     $("#error208").removeClass("red-caption-error");
+            // }
+
+
+            if ($('#op1003').val() === null  || ($('#op1003').val() == 'OTH' && !$('#op1004').val())) {
                 $("#error200").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             } else { 
                 $("#error200").removeClass("red-caption-error");
             }
-            
-            if ($('#op1002').val() === null  || ($('#op1002').val() == 'OTH' && !$('#op1003').val())) {
-                $("#error201").removeClass("green-caption").addClass("red-caption-error");
+            if ($('#op1012').val() === null  || ($('#op1012').val() == 'OTH' && !$('#op1013').val())) {
+                $("#error200").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             } else { 
-                $("#error201").removeClass("red-caption-error");
+                $("#error200").removeClass("red-caption-error");
             }
-    
-            if ($('#op1007').val() === null  || ($('#op1007').val() == 'OTH' && !$('#op1008').val())) {
-                $("#error203").removeClass("green-caption").addClass("red-caption-error");
+            if ($('#op1014').val() === null  || ($('#op1014').val() == 'OTH' && !$('#op1015').val())) {
+                $("#error200").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             } else { 
-                $("#error203").removeClass("red-caption-error");
+                $("#error200").removeClass("red-caption-error");
             }
-            
-            if ($('#op1009').val() === null  || ($('#op1009').val() == 'OTH' && !$('#op1010').val())) {
-                $("#error204").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else { 
-                $("#error204").removeClass("red-caption-error");
-            }
-            
-            if ($('#op1011').val() === null  || ($('#op1011').val() == 'OTH' && !$('#op1012').val())) {
-                $("#error205").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else { 
-                $("#error205").removeClass("red-caption-error");
-            }
-            
 
-            if ($('#op1017').val() === null  || ($('#op1017').val() == 'OTH' && !$('#op1018').val())) {
-                $("#error207").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else { 
-                $("#error207").removeClass("red-caption-error");
-            }
-            
-            if ($('#op1019').val() === null  || ($('#op1019').val() == 'OTH' && !$('#op1020').val())) {
-                $("#error208").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else { 
-                $("#error208").removeClass("red-caption-error");
-            }
 
             if (!validateRadio(q300, 202)) {    
                 $("#error202").removeClass("green-caption").addClass("red-caption-error");
@@ -900,66 +931,87 @@ function hideShowOption1(val) {
   });
         //
  
-        $("#op1000").on('change',()=>{
-        if ($("#op1000").val() == 'OTH')
-            $("#op1001").removeClass("hide");
-        else
-            $("#op1001").addClass("hide");       
-        });
+        // $("#op1000").on('change',()=>{
+        // if ($("#op1000").val() == 'OTH')
+        //     $("#op1001").removeClass("hide");
+        // else
+        //     $("#op1001").addClass("hide");       
+        // });
         
-        $("#op1002").on('change',()=>{
-        if ($("#op1002").val() == 'OTH')
-            $("#op1003").removeClass("hide");
-        else
-            $("#op1003").addClass("hide");       
-        });
+        // $("#op1002").on('change',()=>{
+        // if ($("#op1002").val() == 'OTH')
+        //     $("#op1003").removeClass("hide");
+        // else
+        //     $("#op1003").addClass("hide");       
+        // });
 
-        $("#op1007").on('change',()=>{
-        if ($("#op1007").val() == 'OTH')
-            $("#op1008").removeClass("hide");
-        else
-            $("#op1008").addClass("hide");       
-        });
+        // $("#op1007").on('change',()=>{
+        // if ($("#op1007").val() == 'OTH')
+        //     $("#op1008").removeClass("hide");
+        // else
+        //     $("#op1008").addClass("hide");       
+        // });
 
-        $("#op1009").on('change',()=>{
-        if ($("#op1009").val() == 'OTH')
-            $("#op1010").removeClass("hide");
-        else
-            $("#op1010").addClass("hide");       
-        });
+        // $("#op1009").on('change',()=>{
+        // if ($("#op1009").val() == 'OTH')
+        //     $("#op1010").removeClass("hide");
+        // else
+        //     $("#op1010").addClass("hide");       
+        // });
 
         // yes script
        
-        //
-
-        $("#op1011").on('change',()=>{
-        if ($("#op1011").val() == 'OTH')
-            $("#op1012").removeClass("hide");
+        //new
+        $("#op1003").on('change',()=>{
+        if ($("#op1003").val() == 'OTH')
+            $("#op1004").removeClass("hide");
         else
-            $("#op1012").addClass("hide");       
+            $("#op1004").addClass("hide");       
+        });
+        $("#op1012").on('change',()=>{
+        if ($("#op1012").val() == 'OTH')
+            $("#op1013").removeClass("hide");
+        else
+            $("#op1013").addClass("hide");       
+        });
+        $("#op1014").on('change',()=>{
+        if ($("#op1014").val() == 'OTH')
+            $("#op1015").removeClass("hide");
+        else
+            $("#op1015").addClass("hide");       
         });
 
-        // geo option
-         $("#op1015").on('change',()=>{
-        if ($("#op1015").val() == 'OTH')
-            $("#op1016").removeClass("hide");
-        else
-            $("#op1016").addClass("hide");       
-        });
 
-        $("#op1017").on('change',()=>{
-        if ($("#op1017").val() == 'OTH')
-            $("#op1018").removeClass("hide");
-        else
-            $("#op1018").addClass("hide");       
-        });
 
-        $("#op1019").on('change',()=>{
-        if ($("#op1019").val() == 'OTH')
-            $("#op1020").removeClass("hide");
-        else
-            $("#op1020").addClass("hide");       
-        });
+
+    //     $("#op1011").on('change',()=>{
+    //     if ($("#op1011").val() == 'OTH')
+    //         $("#op1012").removeClass("hide");
+    //     else
+    //         $("#op1012").addClass("hide");       
+    //     });
+
+        
+    //      $("#op1015").on('change',()=>{
+    //     if ($("#op1015").val() == 'OTH')
+    //         $("#op1016").removeClass("hide");
+    //     else
+    //         $("#op1016").addClass("hide");       
+    //     });
+
+    //     $("#op1017").on('change',()=>{
+    //     if ($("#op1017").val() == 'OTH')
+    //         $("#op1018").removeClass("hide");
+    //     else
+    //         $("#op1018").addClass("hide");       
+    //     });
+
+    //     $("#op1019").on('change',()=>{
+    //     if ($("#op1019").val() == 'OTH')
+    //         $("#op1020").removeClass("hide");
+    //     else
+    //         $("#op1020").addClass("hide");       
+    //     });
         
 
     });
