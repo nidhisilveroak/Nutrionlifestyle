@@ -211,7 +211,7 @@
     <div class="page-container">
         <div class="page-content">
             <div class="container-fluid">
-                <form class="CG-form" id="mse_questions_form">
+                <form class="CG-form" id="nla_questions_form">
                     <div class="row row-xs">
                         <div class="col-md-1"></div>
                         <div class="col-md-12">
@@ -238,7 +238,7 @@
                                             </td>
                                             <td class="segmented-button" style="border-top: 0px;">
                                                 <div class="form-group segmented-button options">
-                                                    <select class="form-control" name="q100" id="op1000">
+                                                    <select class="form-control" name="q101" id="op1001">
                                                         <option value="-1" disabled="" selected=""> -- Select -- </option>
                                                         <option value="1">Veg</option>
                                                         <option value="2">Nonveg</option>
@@ -260,7 +260,7 @@
                                             <td class="segmented-button" style="border-top: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q101" id="op1001">
+                                                    <select class="form-control" name="q102" id="op1002">
                                                         <option value="-1" disabled="" selected=""> -- Select -- </option>
                                                         <option value="1">Once a week</option>
                                                         <option value="2">Twice a week</option>
@@ -271,14 +271,14 @@
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error203">
+                                                <span id="error202">
                                                     <strong>3.</strong> Exercise <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
-                                                    <select class="form-control" name="q102" id="op1002">
+                                                    <select class="form-control" name="q103" id="op1003">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1">Regular </option>
                                                         <option value="2">Occasional </option>
@@ -291,7 +291,7 @@
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error204">
+                                                <span id="error203">
                                                     <strong>4.</strong> Type of exercise  <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -300,7 +300,7 @@
                                                 <div class="form-group segmented-button options">
 
 
-                                                    <select class="form-control" name="q103" id="op1003">
+                                                    <select class="form-control" name="q104" id="op1004">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Brisk/walk </option>
                                                         <option value="2"> Running/ jogging </option>
@@ -309,7 +309,7 @@
                                                         <option value="5"> Yoga/ Meditation </option>
                                                         <option value="OTH">Others </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q103" id="op1004" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q104" id="op1005" cols="60" rows="2"></textarea  class="form-control">
 
 
                                                 </div>
@@ -318,26 +318,26 @@
 
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error205">
+                                                <span id="error204">
                                                     <strong>5.</strong> Following any Diet Plan <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                                 <div class="form-group segmented-button">
-                                                                    <input id="op3005" name="q300" type="radio" value="Y">
-                                                                    <label for="op3005">Yes</label>
-                                                                    <input id="op3006" name="q300" type="radio" value="N">
-                                                                    <label for="op3006">No</label>
+                                                                    <input id="op1006" name="q105" type="radio" value="1" onclick="hideShow('Y')">
+                                                                    <label for="op1006">Yes</label>
+                                                                    <input id="op1007" name="q105" type="radio" value="0" onclick="hideShow('N')">
+                                                                    <label for="op1007">No</label>
                                                                 </div>
-                                                            </td>
-                                                <textarea  class="form-control hide" name="q104" id="area" cols="60" rows="2"></textarea  class="form-control">
+                                                                <textarea  class="form-control hide" name="q105" id="op1008" cols="60" rows="2" placeholder="Please Specify..."></textarea  class="form-control">
+                                                            </td>    
                                         </tr>
 
 
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error204">
+                                                <span id="error205">
                                                     <strong>6.</strong> Intake of Alcohol  <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -346,7 +346,7 @@
                                                 <div class="form-group segmented-button options">
 
 
-                                                    <select class="form-control" name="q105" id="op1005">
+                                                    <select class="form-control" name="q106" id="op1009">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Weekly </option>
                                                         <option value="2"> Monthly </option>
@@ -361,14 +361,14 @@
 
                                         <tr>
                                             <td style="vertical-align:middle;">
-                                                <span id="error201">
+                                                <span id="error206">
                                                     <strong>7.</strong> Type of Alcohol <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1006" name="q106">
+                                                    <input type="text" class="form-control" id="op1010" name="q107">
                                                 </div>
                                             </td>
                                         </tr>
@@ -384,7 +384,7 @@
                                                 <div class="form-group segmented-button options" style="vertical-align:middle; padding-bottom:10px">
 
 
-                                                    <select class="form-control" name="q108" id="op1007">
+                                                    <select class="form-control" name="q108" id="op1011">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Often </option>
                                                         <option value="2"> Occasionally </option>
@@ -406,7 +406,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q109" id="op1008">
+                                                    <select class="form-control" name="q109" id="op1012">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Less than 1 litre per day </option>
                                                         <option value="2"> 1-2 litre per day </option>
@@ -420,7 +420,7 @@
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error208">
+                                                <span id="error209">
                                                     <strong>10.</strong> Sleep Cycle <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -428,7 +428,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q110" id="op1009">
+                                                    <select class="form-control" name="q110" id="op1013">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> 9 hours and more </option>
                                                         <option value="2"> 6-7 hrs </option>
@@ -441,28 +441,28 @@
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error205">
+                                                <span id="error210">
                                                     <strong>11.</strong> Do you work in Shifts? <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                                 <div class="form-group segmented-button">
-                                                                    <input id="op1024" name="q111" type="radio" value="Y" onclick="hideShowOption1('Y');">
-                                                                    <label for="op1024">Yes</label>
+                                                                    <input id="op1014" name="q111" type="radio" value="1" onclick="hideShowOption('Y');">
+                                                                    <label for="op1014">Yes</label>
 
-                                                                    <input id="op1025" name="q111" type="radio" value="N" onclick="hideShowOption1('N');">
-                                                                    <label for="op1025">No</label>
-                                                                    <input id="op1025" name="q111" type="radio" value="OTHS" onclick="hideShowOption1('O');">
-                                                                    <label for="op1025">Others</label>
-                                                                   <textarea  class="form-control hide" name="q112" id="area2" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
+                                                                    <input id="op1015" name="q111" type="radio" value="0" onclick="hideShowOption('N');">
+                                                                    <label for="op1015">No</label>
+                                                                    <input id="op1016" name="q111" type="radio" value="2" onclick="hideShowOption('O');">
+                                                                    <label for="op1016">Others</label>
                                                                 </div>
+                                                                <textarea  class="form-control hide" name="q111" id="op1017" cols="60" rows="2" placeholder="Specify If any"></textarea  class="form-control">
                                             </td>
                                         </tr>
                                         
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error208">
+                                                <span id="error211">
                                                     <strong>12.</strong> Tea/ Coffee intake per day <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -470,7 +470,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q113" id="op1010">
+                                                    <select class="form-control" name="q112" id="op1018">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> 1-2 cups/day </option>
                                                         <option value="2"> 2-3 cups/day </option>
@@ -484,7 +484,7 @@
 
                                         <tr>
                                             <td style="vertical-align:middle">
-                                                <span id="error208">
+                                                <span id="error212">
                                                     <strong>13.</strong> How comfortable are you in taking Herbal tea/ Coffees? <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -492,7 +492,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q114" id="op1011">
+                                                    <select class="form-control" name="q113" id="op1019">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Comfortable </option>
                                                         <option value="2"> Uncomfortable </option>
@@ -505,7 +505,7 @@
 
                                          <tr>
                                             <td style="vertical-align:middle;">
-                                                <span id="error201">
+                                                <span id="error213">
                                                     <strong>14.</strong> Type of Oil used for cooking majorly at home <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
@@ -513,7 +513,7 @@
                                             <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q115" id="op1012">
+                                                    <select class="form-control" name="q114" id="op1020">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Sunflower </option>
                                                         <option value="2"> Groundnut </option>
@@ -526,33 +526,33 @@
                                                         <option value="9"> Cold Pressed </option>
                                                         <option value="OTH">Any Other </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q115" id="op1013" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q114" id="op1021" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
-                                                <span id="error210">
+                                                <span id="error214">
                                                     <strong>15.</strong> List of food allergies <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td class="segmented-button" style="vertical-align:middle">
                                                 <div class="form-group segmented-button options">
                                             
-                                                <input id="op1024" name="q116" type="radio" value="N" onclick="hideShowOption('N');">
-                                                <label for="op1024">None</label>
+                                                <input id="op1022" name="q115" type="radio" value="0" onclick="hideShowOption1('N');">
+                                                <label for="op1022">None</label>
 
-                                                <input id="op1025" name="q116" type="radio" value="Y" onclick="hideShowOption('Yes');">
-                                                <label for="op1025">Yes</label>  
+                                                <input id="op1023" name="q115" type="radio" value="1" onclick="hideShowOption1('Y');">
+                                                <label for="op1023">Yes</label>  
                                                 </div>
-                                            <textarea  class="form-control hide" name="q116" id="area1" cols="60" rows="2"></textarea  class="form-control"> 
+                                            <textarea  class="form-control hide" name="q115" id="op1024" cols="60" rows="2"></textarea  class="form-control"> 
                                             </td>
 
                                         </tr>
                                          <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; border-bottom-width: 0px;">
-                                                <span id="error201">
+                                                <span id="error215">
                                                     <strong>16.</strong> Geographical location <font color="RED"> * </font>
                                                 </span>
                                             <BR/>
@@ -560,7 +560,7 @@
                                             <td class="segmented-button" style="padding-bottom:10px; border-bottom-width: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q117" id="op1014">
+                                                    <select class="form-control" name="q116" id="op1025">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> North </option>
                                                         <option value="2"> South </option>
@@ -568,7 +568,7 @@
                                                         <option value="4"> West </option>
                                                         <option value="OTH">Any Other </option>
                                                     </select>
-                                                   <textarea  class="form-control hide" name="q117" id="op1015" cols="60" rows="2"></textarea  class="form-control">
+                                                   <textarea  class="form-control hide" name="q116" id="op1026" cols="60" rows="2"></textarea  class="form-control">
                                                 </div>
                                             </td>
                                         </tr>
@@ -581,114 +581,114 @@
                                     <table style="max-width:100%" class="table">
                                         <tr>
                                             <td style="vertical-align:middle;">
-                                                <span id="error201">
+                                                <span id="error216">
                                                     <strong>17. a)</strong> Wake up <font color="RED"> * </font>
                                                 </span>
                                                 <BR />
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1016" name="q118">
+                                                    <input type="text" class="form-control" id="op1027" name="q117">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
+                                                <span id="error217">
                                                     <strong>  b)</strong> Breakfast <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1017" name="q119">
+                                                    <input type="text" class="form-control" id="op1028" name="q118">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
+                                                <span id="error218">
                                                     <strong>  c)</strong> Midmorning <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1018" name="q120">
+                                                    <input type="text" class="form-control" id="op1029" name="q119">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
+                                                <span id="error219">
                                                     <strong>  d)</strong> Lunch <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1019" name="q121">
+                                                    <input type="text" class="form-control" id="op1030" name="q120">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
+                                                <span id="error220">
                                                     <strong>  e)</strong> Evening snack <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1020" name="q122">
+                                                    <input type="text" class="form-control" id="op1031" name="q121">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
+                                                <span id="error221">
                                                     <strong>  f)</strong> Dinner <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1021" name="q123">
+                                                    <input type="text" class="form-control" id="op1032" name="q122">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; padding-left:35px;">
-                                                <span id="error201">
-                                                    <strong>  h)</strong> Post dinner <font color="RED"> * </font>
+                                                <span id="error222">
+                                                    <strong>  g)</strong> Post dinner <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" id="op1022" name="q124">
+                                                    <input type="text" class="form-control" id="op1033" name="q123">
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px;">
-                                                <span id="error201">
+                                                <span id="error223">
                                                     <strong>18.</strong> Any midnight cravings? <font color="RED"> * </font>
                                                 </span>
                                             </td>
                                             <td class="segmented-button"  style="padding-top: 22px;">
                                                 <div class="form-group segmented-button">
-                                                    <input id="op3005" name="q125" type="radio" value="Yes">
-                                                    <label for="op3005">Yes</label>
-                                                    <input id="op3006" name="q125" type="radio" value="No">
-                                                    <label for="op3006">No</label>
+                                                    <input id="op1034" name="q124" type="radio" value="1">
+                                                    <label for="op1034">Yes</label>
+                                                    <input id="op1035" name="q124" type="radio" value="0">
+                                                    <label for="op1035">No</label>
                                                 </div>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td style="vertical-align:middle; padding-bottom:10px; border-bottom-width: 0px;">
-                                                <span id="error201">
+                                                <span id="error224">
                                                     <strong>19.</strong> Food Preference <font color="RED"> * </font>
                                                 </span>
                                             </td>
-                                            <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px">
+                                            <td class="segmented-button" style="vertical-align:middle; padding-bottom:10px; border-bottom-width: 0px;">
                                                 <div class="form-group segmented-button options">
 
-                                                    <select class="form-control" name="q126" id="op1023">
+                                                    <select class="form-control" name="q125" id="op1036">
                                                         <option value="-1" disabled selected=""> -- Select -- </option>
                                                         <option value="1"> Sweet </option>
                                                         <option value="2"> Savoury </option>
@@ -709,7 +709,7 @@
                         <div align="center">
                             <div class="alert alert-success" role="alert" style="height:40px;width:500px; display: none;" id="GGSC_succ">Assessment Submitted!</div>
                         </div>
-                        <div align="center" style="margin-right: 20px; margin-top: 20px;">
+                        <div align="center" style="margin-right: 20px; margin-top: 10px;">
                             <input type="submit" name="submit_btn" id="submit_btn" class="submit-btn" style="background-color:#8ebe3f; border-radius:10px; height:40px; padding: 0; width:150px;" value="Submit">
                             <div class="error" style="color:red;font-weight:bolder">
                             </div>
@@ -741,7 +741,7 @@
                 if (obj[i].checked == true) {
                     result = 1;
                     var error_div = "#error";
-                    if (error_no == 202 || error_no == 206 || error_no == 209 || error_no == 210 || error_no == 212 || error_no == 214 ) {
+                    if (error_no == 204 || error_no == 210 || error_no == 214 || error_no == 124) {
                         $(error_div.concat(error_no)).removeClass("red-caption-error").addClass("green-caption");
                     } else {
                         $(error_div.concat(error_no)).removeClass("red-error");
@@ -753,31 +753,30 @@
         }
         // hide show text area
         
-        function hideShow(val) {
+        function hideShowOption1(val) {
   if (val == "Y") {
-    document.getElementById('area').style.display="block";
+    document.getElementById("op1024").style.display="block";
   } else {
-    document.getElementById('area').style.display="none";
+    document.getElementById("op1024").style.display="none";
+  }
+}
+function hideShow(val) {
+  if (val == "Y") {
+    document.getElementById('op1008').style.display="block";
+  } else {
+    document.getElementById('op1008').style.display="none";
   }
 }
 function hideShowOption(val) {
-  if (val == "Yes") {
-    document.getElementById('area1').style.display="block";
-  } else {
-    document.getElementById('area1').style.display="none";
-  }
-}
-function hideShowOption1(val) {
   if (val == "O") {
-    document.getElementById('area2').style.display="block";
+    document.getElementById("op1017").style.display="block";
   } else {
-    document.getElementById('area2').style.display="none";
+    document.getElementById("op1017").style.display="none";
   }
 }
         
         function test() {
             var err = '';
-            var q100 = document.getElementsByName("q100");
             var q101 = document.getElementsByName("q101");
             var q102 = document.getElementsByName("q102");
             var q103 = document.getElementsByName("q103");
@@ -803,111 +802,161 @@ function hideShowOption1(val) {
             var q123 = document.getElementsByName("q123");
             var q124 = document.getElementsByName("q124");
             var q125 = document.getElementsByName("q125");
-            var q126 = document.getElementsByName("q126");
 
-            var q300 = document.getElementsByName("q300");
-            var q301 = document.getElementsByName("q301");
-            var q302 = document.getElementsByName("q302");
-            // if ($('#op1000').val() === null  || ($('#op1000').val() == 'OTH' && !$('#op1001').val())) {
-            //     $("#error200").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error200").removeClass("red-caption-error");
-            // }
-            
-            // if ($('#op1002').val() === null  || ($('#op1002').val() == 'OTH' && !$('#op1003').val())) {
-            //     $("#error201").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error201").removeClass("red-caption-error");
-            // }
-    
-            // if ($('#op1007').val() === null  || ($('#op1007').val() == 'OTH' && !$('#op1008').val())) {
-            //     $("#error203").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error203").removeClass("red-caption-error");
-            // }
-            
-            // if ($('#op1009').val() === null  || ($('#op1009').val() == 'OTH' && !$('#op1010').val())) {
-            //     $("#error204").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error204").removeClass("red-caption-error");
-            // }
-            
-            // if ($('#op1011').val() === null  || ($('#op1011').val() == 'OTH' && !$('#op1012').val())) {
-            //     $("#error205").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error205").removeClass("red-caption-error");
-            // }
-            
-
-            // if ($('#op1017').val() === null  || ($('#op1017').val() == 'OTH' && !$('#op1018').val())) {
-            //     $("#error207").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error207").removeClass("red-caption-error");
-            // }
-            
-            // if ($('#op1019').val() === null  || ($('#op1019').val() == 'OTH' && !$('#op1020').val())) {
-            //     $("#error208").removeClass("green-caption").addClass("red-caption-error");
-            //     err += '\n 2';
-            // } else { 
-            //     $("#error208").removeClass("red-caption-error");
-            // }
-
-
-            if ($('#op1003').val() === null  || ($('#op1003').val() == 'OTH' && !$('#op1004').val())) {
+            if ($('#op1001').val() === null) {
                 $("#error200").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             } else { 
                 $("#error200").removeClass("red-caption-error");
             }
-            if ($('#op1012').val() === null  || ($('#op1012').val() == 'OTH' && !$('#op1013').val())) {
-                $("#error200").removeClass("green-caption").addClass("red-caption-error");
+            if ($('#op1002').val() === null) {
+                $("#error201").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             } else { 
-                $("#error200").removeClass("red-caption-error");
+                $("#error201").removeClass("red-caption-error");
             }
-            if ($('#op1014').val() === null  || ($('#op1014').val() == 'OTH' && !$('#op1015').val())) {
-                $("#error200").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else { 
-                $("#error200").removeClass("red-caption-error");
-            }
-
-
-            if (!validateRadio(q300, 202)) {    
+            if ($('#op1003').val() === null) {
                 $("#error202").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
+            } else { 
+                $("#error202").removeClass("red-caption-error");
             }
 
-            if (!validateRadio(q301, 212)) {    
-                $("#error212").removeClass("green-caption").addClass("red-caption-error");
+            if ($('#op1004').val() === null  || ($('#op1004').val() == 'OTH' && !$('#op1005').val())) {
+                $("#error203").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error203").removeClass("red-caption-error");
+            }
+            
+            if ($('#op1009').val() === null) {
+                $("#error205").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error205").removeClass("red-caption-error");
+            }
+
+            if ($('#op1010').val() === null) {
+                $("#error206").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error206").removeClass("red-caption-error");
+            }
+
+            if ($('#op1011').val() === null) {
+                $("#error207").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error207").removeClass("red-caption-error");
+            }
+
+            if ($('#op1012').val() === null) {
+                $("#error208").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error208").removeClass("red-caption-error");
+            }
+
+            if ($('#op1013').val() === null) {
+                $("#error209").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error209").removeClass("red-caption-error");
+            }
+
+            if ($('#op1020').val() === null  || ($('#op1020').val() == 'OTH' && !$('#op1021').val())) {
+                $("#error213").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error213").removeClass("red-caption-error");
+            }
+    
+            if ($('#op1025').val() === null  || ($('#op1025').val() == 'OTH' && !$('#op1026').val())) {
+                $("#error215").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error215").removeClass("red-caption-error");
+            }
+
+            if ($('#op1027').val() === null) {
+                $("#error216").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error216").removeClass("red-caption-error");
+            }
+
+            if ($('#op1028').val() === null) {
+                $("#error217").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error217").removeClass("red-caption-error");
+            }
+
+            if ($('#op1029').val() === null) {
+                $("#error218").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error218").removeClass("red-caption-error");
+            }
+
+            if ($('#op1030').val() === null) {
+                $("#error219").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error219").removeClass("red-caption-error");
+            }
+            if ($('#op1031').val() === null) {
+                $("#error220").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error220").removeClass("red-caption-error");
+            }
+
+            if ($('#op1032').val() === null) {
+                $("#error221").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error221").removeClass("red-caption-error");
+            }
+
+            if ($('#op1033').val() === null) {
+                $("#error222").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error222").removeClass("red-caption-error");
+            }
+
+            if ($('#op1036').val() === null) {
+                $("#error224").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            } else { 
+                $("#error224").removeClass("red-caption-error");
+            }
+            
+            if (!validateRadio(q105, 204)) {    
+                $("#error204").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             }
 
-            if (!validateRadio(q302, 214)) {    
+            if (!validateRadio(q111, 210)) {    
+                $("#error210").removeClass("green-caption").addClass("red-caption-error");
+                err += '\n 2';
+            }
+
+            if (!validateRadio(q115, 214)) {    
                 $("#error214").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             }
 
-            if (!validateRadio(q106, 206)) {
-                $("#error206").removeClass("green-caption").addClass("red-caption-error");
+            if (!validateRadio(q124, 223)) {    
+                $("#error223").removeClass("green-caption").addClass("red-caption-error");
                 err += '\n 2';
             }
-            
-            if (!validateRadio(q109, 209)) {
-                $("#error209").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            }
-            
-            if (!validateRadio(q110, 210)) {    
-                $("#error210").removeClass("green-caption").addClass("red-caption-error");
-                err += '\n 2';
-            } else if(err=="") {
+
+             if (err.length) {
+                $("div.error").html("Please answer all the questions!");
+                return false;
+            } else {
                 return true;
             }
         }
@@ -915,110 +964,34 @@ function hideShowOption1(val) {
 
     <script>
     $(document).ready(function() {
-        // yes js
-        $('input[name="#q302"]').click(function() 
-                                  {
-    var value = $(this).val();
-    if( value == "Yes")
-    {
-      $('#address').hide();
-    }
-    else{
-      $('#address').show();
-    }
-
-
-  });
-        //
- 
-        // $("#op1000").on('change',()=>{
-        // if ($("#op1000").val() == 'OTH')
-        //     $("#op1001").removeClass("hide");
-        // else
-        //     $("#op1001").addClass("hide");       
-        // });
-        
-        // $("#op1002").on('change',()=>{
-        // if ($("#op1002").val() == 'OTH')
-        //     $("#op1003").removeClass("hide");
-        // else
-        //     $("#op1003").addClass("hide");       
-        // });
-
-        // $("#op1007").on('change',()=>{
-        // if ($("#op1007").val() == 'OTH')
-        //     $("#op1008").removeClass("hide");
-        // else
-        //     $("#op1008").addClass("hide");       
-        // });
-
-        // $("#op1009").on('change',()=>{
-        // if ($("#op1009").val() == 'OTH')
-        //     $("#op1010").removeClass("hide");
-        // else
-        //     $("#op1010").addClass("hide");       
-        // });
-
-        // yes script
-       
         //new
-        $("#op1003").on('change',()=>{
-        if ($("#op1003").val() == 'OTH')
-            $("#op1004").removeClass("hide");
+        $("#op1004").on('change',()=>{
+        if ($("#op1004").val() == 'OTH')
+            $("#op1005").removeClass("hide");
         else
-            $("#op1004").addClass("hide");       
-        });
-        $("#op1012").on('change',()=>{
-        if ($("#op1012").val() == 'OTH')
-            $("#op1013").removeClass("hide");
-        else
-            $("#op1013").addClass("hide");       
-        });
-        $("#op1014").on('change',()=>{
-        if ($("#op1014").val() == 'OTH')
-            $("#op1015").removeClass("hide");
-        else
-            $("#op1015").addClass("hide");       
+            $("#op1005").addClass("hide");       
         });
 
+        $("#op1020").on('change',()=>{
+        if ($("#op1020").val() == 'OTH')
+            $("#op1021").removeClass("hide");
+        else
+            $("#op1021").addClass("hide");       
+        });
 
+        $("#op1025").on('change',()=>{
+        if ($("#op1025").val() == 'OTH')
+            $("#op1026").removeClass("hide");
+        else
+            $("#op1026").addClass("hide");       
+        });
 
-
-    //     $("#op1011").on('change',()=>{
-    //     if ($("#op1011").val() == 'OTH')
-    //         $("#op1012").removeClass("hide");
-    //     else
-    //         $("#op1012").addClass("hide");       
-    //     });
-
-        
-    //      $("#op1015").on('change',()=>{
-    //     if ($("#op1015").val() == 'OTH')
-    //         $("#op1016").removeClass("hide");
-    //     else
-    //         $("#op1016").addClass("hide");       
-    //     });
-
-    //     $("#op1017").on('change',()=>{
-    //     if ($("#op1017").val() == 'OTH')
-    //         $("#op1018").removeClass("hide");
-    //     else
-    //         $("#op1018").addClass("hide");       
-    //     });
-
-    //     $("#op1019").on('change',()=>{
-    //     if ($("#op1019").val() == 'OTH')
-    //         $("#op1020").removeClass("hide");
-    //     else
-    //         $("#op1020").addClass("hide");       
-    //     });
-        
 
     });
 
     </script>
     <script>
-        $("#mse_questions_form").submit(function() {
+        $("#nla_questions_form").submit(function() {
             var validate = test();
             if (validate == true) {
                 submit_btn.disabled = true;
@@ -1027,37 +1000,45 @@ function hideShowOption1(val) {
             }else {
                 return false;
             }
-            var uid = "EWAP100261";
+            var uid = "SOH2000123";
             var type = 'nla';
-            var q1 = $('#op1000 option:selected').val();
-            var q2 = $('#op1002 option:selected').val();
-            //var q3 = null;
-            var q4 = $('#op1007 option:selected').val();
-            var q5 = $('#op1009 option:selected').val();
-            var q6 = $('#op1011 option:selected').val();
-            var q7 = $('input[name="q106"]:checked').val();
-            var q8 = $('#op1017 option:selected').val();
-            var q9 = $('#op1019 option:selected').val();
-            var q10 = $('input[name="q109"]:checked').val();
-            var q11 = $('input[name="q110"]:checked').val();
-            var q101 = $("#op1001").val();
-            var q21 = $("#op1003").val();
-            var q41 = $('#op1008').val();
-            var q51 = $('#op1010').val();
-            var q61 = $('#op1012').val();
-            var q81 = $('#op1018').val();
-            var q91 = $('#op1020').val();
-            var q12 = $('input[name="q300"]:checked').val();
-            var q13 = $('input[name="q301"]:checked').val();
-            var q14 = $('input[name="q302"]:checked').val();
-            // var score = 2;
-            // var linkid = '';
+                var q1 = $('#op1001').val();
+                var q2 = $('#op1002').val();
+                var q3 = $('#op1003').val();
+                var q4 = $('#op1004 option:selected').val();
+                var q5 = $('input[name="q105"]:checked').val();
+                var q6 = $('#op1009').val();
+                var q7 = $("#op1010").val();
+                var q8 = $("#op1011").val();
+                var q9 = $('#op1012').val();
+                var q10 = $('#op1013').val();
+                var q11 = $('input[name="q111"]:checked').val();
+                var q12 = $('#op1018').val();
+                var q13 = $('#op1019').val();
+                var q14 = $('#op1020 option:selected').val();
+                var q15 = $('input[name="q115"]:checked').val();
+                var q16 = $('#op1025 option:selected').val();
+                var q17 = $('#op1027').val();
+                var q18 = $('#op1028').val();
+                var q19 = $('#op1029').val();
+                var q20 = $('#op1030').val();
+                var q21 = $('#op1031').val();
+                var q22 = $('#op1032').val();
+                var q23 = $('#op1033').val();
+                var q24 = $('input[name="q124"]:checked').val();
+                var q25 = $('#op1035').val();
+                var q41 = $('#op1005').val();
+                var q51 = $('#op1008').val();
+                var q111 = $('#op1017').val();
+                var q141 = $('#op1021').val();
+                var q151 = $('#op1024').val();
+                var q161 = $('#op1026').val();
             const formData = {
                 uid,
                 type,
                 q1,
                 q2,
-                //q3,
+                q3,
                 q4,
                 q5,
                 q6,
@@ -1066,18 +1047,29 @@ function hideShowOption1(val) {
                 q9,
                 q10,
                 q11,
-                q101,
-                q21,
-                q41,
-                q51,
-                q61,
-                q81,
-                q91,
                 q12,
                 q13,
                 q14,
-                linkid
+                q15,
+                q16,
+                q17,
+                q18,
+                q19,
+                q20,
+                q21,
+                q22,
+                q23,
+                q24,
+                q25,
+                q41,
+                q51,
+                q111,
+                q141,
+                q151,
+                q161
             }
+            console.log(formData);
+            // return false;
             var assessment = {
                 "url": apiUrl + "assessments",
                 "method": "POST",
